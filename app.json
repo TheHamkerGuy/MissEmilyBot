@@ -1,14 +1,14 @@
 {
-    "name": "Mukesh Robot",
+    "name": "Miss Emily Robot",
     "description": "Telegram Group Management Bot.",
-    "logo": "https://te.legra.ph/file/49c43e6fc856534a09853.jpg",
+    "logo": "https://telegra.ph/file/06245700111f3eebcf49a-deb36b11dc156b877b.jpg",
     "keywords": [
        "telegram",
        "modular",
        "group",
        "manager"
     ],   
- "repository": "https://github.com/Noob-Mukesh/MukeshRobot",
+ "repository": "https://github.com/TheHamkerGuy/MissEmilyBot",
  "stack": "heroku-22",
  "addons": [
     {
